@@ -1,0 +1,699 @@
+ideas = { 
+
+#######
+# HUN #
+#######
+	economy_minister = {
+		HUN_miklos_kallay = {
+			allowed = {
+				original_tag = HUN
+			}
+			available = {
+				OR = {
+					has_government = despotism
+					has_government = authoritarian_democrat
+				}
+				date < 1967.12.2
+			}
+			traits = {
+				economy_minister
+				eco_keynesian_economy
+				despotism
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	foreign_minister = {
+		HUN_erno_mihalyfi = {
+			allowed = {
+				original_tag = HUN
+			}
+			available = {
+				OR = {
+					has_government = despotism
+					has_government = authoritarian_democrat
+				}
+				date < 1972.5.9
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				for_general_staffer
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	security_minister = {
+		HUN_vilmos_nagy = {
+			allowed = {
+				original_tag = HUN
+			}
+			available = {
+				OR = {
+					has_government = despotism
+					has_government = authoritarian_democrat
+				}
+				date < 1976.3.12
+			}
+			traits = {
+				foreign_minister
+				despotism
+				sec_crime_fighter
+			}
+			cancel_if_invalid = yes
+		}
+	}
+
+### DSR ###
+
+head_of_government = {
+		DSR_Andreas_Baader_hog_com = { #Auto-Generated
+			allowed = {original_tag = DSR}
+			available = {
+				OR = { has_government = communist has_government = socialist }
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Andreas_Baader_dead}
+				NOT = {has_country_flag = Andreas_Baader_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				communist
+			}
+			cancel_if_invalid = no
+		}
+	}
+
+################################################################################################################################################################################################
+### CAU
+################################################################################################################################################################################################
+
+head_of_government = {
+		CAU_Friedrich_Werner_hog_des = { #Auto-Generated
+			allowed = {original_tag = CAU}
+			available = {
+				OR = { has_government = despotism }
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Friedrich_Werner_dead}
+				NOT = {has_country_flag = Friedrich_Werner_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				despotism
+				hog_spiritual_leader
+			}
+			cancel_if_invalid = no
+		}
+		}
+head_of_government = {
+		CAU_Margarete_Waldeck_hog_uns = { #Auto-Generated
+			allowed = {original_tag = CAU}
+			available = {
+				OR = { has_government = despotism has_government = ultranational_socialism }
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Margarete_Waldeck_dead}
+				NOT = {has_country_flag = Margarete_Waldeck_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				ultranational_socialism
+				hog_backroom_backstabber
+			}
+			cancel_if_invalid = no
+		}
+		}
+head_of_government = {
+		CAU_Georg_Wilhelm_Waldeck_hog_des = { #Auto-Generated
+			allowed = {original_tag = CAU}
+			available = {
+				OR = { has_government = despotism }
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Georg_Wilhelm_Waldeck_dead}
+				NOT = {has_country_flag = Georg_Wilhelm_Waldeck_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				despotism
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = no
+		}
+		}
+head_of_government = {
+		CAU_Josias_Waldeck_hog_uns = { #Auto-Generated
+			allowed = {original_tag = CAU}
+			available = {
+				OR = { has_government = ultranational_socialism }
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Josias_Waldeck_dead}
+				NOT = {has_country_flag = Josias_Waldeck_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				ultranational_socialism
+				hog_scourge_of_kaukasia
+			}
+			cancel_if_invalid = no
+		}
+		}
+head_of_government = {
+		CAU_Wittekind_Waldeck_hog_des = { #Auto-Generated
+			allowed = {original_tag = CAU}
+			available = {
+				OR = { has_government = despotism }
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Wittekind_Waldeck_dead}
+				NOT = {has_country_flag = Wittekind_Waldeck_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				despotism
+				hog_happy_amateur
+			}
+			cancel_if_invalid = no
+		}
+		}
+head_of_government = {
+		CAU_Aleksander_Solhenitzyn_hog_fas = { #Auto-Generated
+			allowed = {original_tag = CAU}
+			available = {
+				OR = { has_government = fascism has_government = national_socialism }
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Aleksander_Solhenitzyn_dead}
+				NOT = {has_country_flag = Aleksander_Solhenitzyn_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				fascism
+				hog_flamboyant_tough_guy
+			}
+			cancel_if_invalid = no
+		}
+		}
+head_of_government = {
+		CAU_Josef_Salminger_hog_ns = { #Auto-Generated
+			allowed = {original_tag = CAU}
+			available = {
+				OR = { has_government = national_socialism }
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Josef_Salminger_dead}
+				NOT = {has_country_flag = Josef_Salminger_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				national_socialism
+				hog_political_protege
+			}
+			cancel_if_invalid = no
+		}
+		}
+head_of_government = {
+		CAU_Otto_Ernst_Remer_hog_uns = { #Auto-Generated
+			allowed = {original_tag = CAU}
+			available = {
+				OR = { has_government = ultranational_socialism }
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Otto_Ernst_Remer_dead}
+				NOT = {has_country_flag = Otto_Ernst_Remer_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				ultranational_socialism
+				hog_backroom_backstabber
+			}
+			cancel_if_invalid = no
+		}
+		}
+		
+foreign_minister = {
+		CAU_Arno_Schikedanz_for_ns = { #Auto-Generated
+			allowed = {original_tag = CAU}
+			available = {
+				OR = { has_government = despotism has_government = national_socialism has_government = ultranational_socialism }
+				has_country_flag = can_replace_for
+				NOT = {has_country_flag = Arno_Schikedanz_dead}
+				NOT = {has_country_flag = Arno_Schikedanz_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				national_socialism
+				for_biased_intellectual
+			}
+			cancel_if_invalid = no
+		}
+		}
+foreign_minister = {
+		CAU_Hans_Kroll_for_uns = { #Auto-Generated
+			allowed = {original_tag = CAU}
+			available = {
+				OR = { has_government = despotism has_government = national_socialism has_government = ultranational_socialism }
+				has_country_flag = can_replace_for
+				NOT = {has_country_flag = Hans_Kroll_dead}
+				NOT = {has_country_flag = Hans_Kroll_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				ultranational_socialism
+				for_iron_fisted_brute
+			}
+			cancel_if_invalid = no
+		}
+		}
+foreign_minister = {
+		CAU_Karl_Spreti_for_des = { #Auto-Generated
+			allowed = {original_tag = CAU}
+			available = {
+				OR = { has_government = despotism has_government = national_socialism has_government = ultranational_socialism }
+				has_country_flag = can_replace_for
+				NOT = {has_country_flag = Karl_Spreti_dead}
+				NOT = {has_country_flag = Karl_Spreti_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				despotism
+				for_biased_intellectual
+			}
+			cancel_if_invalid = no
+		}
+		}
+foreign_minister = {
+		CAU_Georg_Dertinger_for_des = { #Auto-Generated
+			allowed = {original_tag = CAU}
+			available = {
+				OR = { has_government = despotism has_government = national_socialism has_government = ultranational_socialism }
+				has_country_flag = can_replace_for
+				NOT = {has_country_flag = Georg_Dertinger_dead}
+				NOT = {has_country_flag = Georg_Dertinger_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				despotism
+				for_great_compromiser
+			}
+			cancel_if_invalid = no
+		}
+		}
+foreign_minister = {
+		CAU_Adolf_Thadden_for_ns = { #Auto-Generated
+			allowed = {original_tag = CAU}
+			available = {
+				OR = { has_government = despotism has_government = national_socialism has_government = ultranational_socialism }
+				has_country_flag = can_replace_for
+				NOT = {has_country_flag = Adolf_Thadden_dead}
+				NOT = {has_country_flag = Adolf_Thadden_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				national_socialism
+				for_general_staffer
+			}
+			cancel_if_invalid = no
+		}
+		}
+foreign_minister = {
+		CAU_Otto_Ernst_Remer_for_uns = { #Auto-Generated
+			allowed = {original_tag = CAU}
+			available = {
+				OR = { has_government = despotism has_government = ultranational_socialism }
+				has_country_flag = can_replace_for
+				NOT = {has_country_flag = Otto_Ernst_Remer_dead}
+				NOT = {has_country_flag = Otto_Ernst_Remer_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				ultranational_socialism
+				for_ideological_crusader
+			}
+			cancel_if_invalid = no
+		}
+		}
+		
+economy_minister = {
+		CAU_Eduard_Deisenhofer_eco_uns = { #Auto-Generated
+			allowed = {original_tag = CAU}
+			available = {
+				OR = { has_government = despotism has_government = national_socialism has_government = ultranational_socialism }
+				has_country_flag = can_replace_eco
+				NOT = {has_country_flag = Eduard_Deisenhofer_dead}
+				NOT = {has_country_flag = Eduard_Deisenhofer_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				ultranational_socialism
+				eco_military_entrepreneur
+			}
+			cancel_if_invalid = no
+		}
+		}
+economy_minister = {
+		CAU_Hermann_Neubacher_eco_ns = { #Auto-Generated
+			allowed = {original_tag = CAU}
+			available = {
+				OR = { has_government = despotism has_government = national_socialism has_government = ultranational_socialism }
+				has_country_flag = can_replace_eco
+				NOT = {has_country_flag = Hermann_Neubacher_dead}
+				NOT = {has_country_flag = Hermann_Neubacher_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				national_socialism
+				eco_resource_industrialist
+			}
+			cancel_if_invalid = no
+		}
+		}
+economy_minister = {
+		CAU_Nils_Nobel_eco_des = { #Auto-Generated
+			allowed = {original_tag = CAU}
+			available = {
+				OR = { has_government = despotism }
+				has_country_flag = can_replace_eco
+				NOT = {has_country_flag = Eduard_Deisenhofer_dead}
+				NOT = {has_country_flag = Eduard_Deisenhofer_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				has_country_flag = cau_nobel_return
+			}
+			traits = {
+				economy_minister
+				despotism
+				eco_industrial_chemist
+			}
+			cancel_if_invalid = no
+		}
+		}
+economy_minister = {
+		CAU_Georg_Lorner_eco_uns = { #Auto-Generated
+			allowed = {original_tag = CAU}
+			available = {
+				OR = { has_government = despotism has_government = national_socialism has_government = ultranational_socialism }
+				has_country_flag = can_replace_eco
+				NOT = {has_country_flag = Georg_Lorner_dead}
+				NOT = {has_country_flag = Georg_Lorner_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				ultranational_socialism
+				eco_administrative_genius
+			}
+			cancel_if_invalid = no
+		}
+		}
+economy_minister = {
+		CAU_Heinrich_Trettner_eco_ns = { #Auto-Generated
+			allowed = {original_tag = CAU}
+			available = {
+				OR = { has_government = despotism has_government = national_socialism has_government = ultranational_socialism }
+				has_country_flag = can_replace_eco
+				NOT = {has_country_flag = Heinrich_Trettner_dead}
+				NOT = {has_country_flag = Heinrich_Trettner_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				national_socialism
+				eco_infantry_proponent
+			}
+			cancel_if_invalid = no
+		}
+		}
+economy_minister = {
+		CAU_Kurt_Schmucker_eco_des = { #Auto-Generated
+			allowed = {original_tag = CAU}
+			available = {
+				OR = { has_government = despotism has_government = national_socialism has_government = ultranational_socialism }
+				has_country_flag = can_replace_eco
+				NOT = {has_country_flag = Kurt_Schmucker_dead}
+				NOT = {has_country_flag = Kurt_Schmucker_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				despotism
+				eco_resource_industrialist
+			}
+			cancel_if_invalid = no
+		}
+		}
+		
+security_minister = {
+		CAU_Karl_Heinz_Burger_sec_uns = { #Auto-Generated
+			allowed = {original_tag = CAU}
+			available = {
+				OR = { has_government = despotism has_government = national_socialism has_government = ultranational_socialism }
+				has_country_flag = can_replace_sec
+				NOT = {has_country_flag = Karl_Heinz_Burger_dead}
+				NOT = {has_country_flag = Karl_Heinz_Burger_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				ultranational_socialism
+				sec_crime_fighter
+			}
+			cancel_if_invalid = no
+		}
+		}
+security_minister = {
+		CAU_Georg_Konrad_Morgan_sec_ns = { #Auto-Generated
+			allowed = {original_tag = CAU}
+			available = {
+				OR = { has_government = despotism has_government = national_socialism has_government = ultranational_socialism }
+				has_country_flag = can_replace_sec
+				NOT = {has_country_flag = Georg_Konrad_Morgan_dead}
+				NOT = {has_country_flag = Georg_Konrad_Morgan_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				national_socialism
+				sec_man_of_the_people
+			}
+			cancel_if_invalid = no
+		}
+		}
+security_minister = {
+		CAU_Walter_Grundmann_sec_des = { #Auto-Generated
+			allowed = {original_tag = CAU}
+			available = {
+				OR = { has_government = despotism }
+				has_country_flag = can_replace_sec
+				NOT = {has_country_flag = Walter_Grundmann_dead}
+				NOT = {has_country_flag = Walter_Grundmann_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				despotism
+				sec_secret_police_chief
+			}
+			cancel_if_invalid = no
+		}
+		}
+security_minister = {
+		CAU_Karl_Otto_Koch_sec_uns = { #Auto-Generated
+			allowed = {original_tag = CAU}
+			available = {
+				OR = { has_government = despotism has_government = national_socialism has_government = ultranational_socialism }
+				has_country_flag = can_replace_sec
+				NOT = {has_country_flag = Karl_Otto_Koch_dead}
+				NOT = {has_country_flag = Karl_Otto_Koch_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				ultranational_socialism
+				sec_back_stabber
+			}
+			cancel_if_invalid = no
+		}
+		}
+security_minister = {
+		CAU_Arthur_Mulverstedt_sec_des = { #Auto-Generated
+			allowed = {original_tag = CAU}
+			available = {
+				OR = { has_government = despotism has_government = national_socialism has_government = ultranational_socialism }
+				has_country_flag = can_replace_sec
+				NOT = {has_country_flag = Arthur_Mulverstedt_dead}
+				NOT = {has_country_flag = Arthur_Mulverstedt_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				despotism
+				sec_efficient_sociopath
+			}
+			cancel_if_invalid = no
+		}
+		}
+security_minister = {
+		CAU_Reinhold_Klebe_sec_ns = { #Auto-Generated
+			allowed = {original_tag = CAU}
+			available = {
+				OR = { has_government = despotism has_government = national_socialism has_government = ultranational_socialism }
+				has_country_flag = can_replace_sec
+				NOT = {has_country_flag = Reinhold_Klebe_dead}
+				NOT = {has_country_flag = Reinhold_Klebe_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				ultranational_socialism
+				sec_silent_lawyer
+			}
+			cancel_if_invalid = no
+		}
+		}
+		
+################################################################################################################################################################################################
+### HOL
+################################################################################################################################################################################################ 
+deputy = {
+		HOL_Arthur_S_Inquart_dep = { #Auto-Generated
+			allowed = {original_tag = HOL}
+			available = {
+				
+			}
+			traits = {
+				deputy
+				national_socialism
+			}
+			cancel_if_invalid = no
+		}
+	} 
+	military_advisor = {
+		HOL_Jurgen_Wagner_mil = { #Auto-Generated
+			allowed = {original_tag = HOL}
+			available = {
+				
+			}
+			traits = {
+				military_advisor
+				national_socialism
+			}
+			cancel_if_invalid = no
+		}
+	} 
+	political_advisor = {
+		HOL_Fritz_Schimdt_pol = { #Auto-Generated
+			allowed = {original_tag = HOL}
+			available = {
+				
+			}
+			traits = {
+				political_advisor
+				national_socialism
+			}
+			cancel_if_invalid = no
+		}
+	} 
+	economic_advisor = {
+		HOL_Hans_Fischbock_eco = { #Auto-Generated
+			allowed = {original_tag = HOL}
+			available = {
+				
+			}
+			traits = {
+				economic_advisor
+				national_socialism
+			}
+			cancel_if_invalid = no
+		}
+	}
+###########################################################
+# INS 
+# written by BlizzardOfOzy
+###########################################################
+
+	head_of_government = {
+		INS_Seizaburo_Okazaki_hog_des = {
+			allowed = {original_tag = INS}
+			available = {
+				OR = { has_government = despotism has_government = fascism has_government = national_socialism has_government = ultranational_socialism }
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Seizaburo_Okazaki_dead}
+				NOT = {has_country_flag = Seizaburo_Okazaki_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				despotism
+				hog_old_general
+			}
+			cancel_if_invalid = no
+		}
+	}
+
+	foreign_minister = {
+		INS_Hitoshi_Imamura_for_ade = {
+			allowed = {original_tag = INS}
+			available = {
+				OR = { has_government = authoritarian_democrat has_government = social_conservative has_government = despotism has_government = fascism }
+				has_country_flag = can_replace_for
+				NOT = {has_country_flag = Hitoshi_Imamura_dead}
+				NOT = {has_country_flag = Hitoshi_Imamura_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				for_apologetic_clerk
+			}
+			cancel_if_invalid = no
+		}
+	}
+
+	economy_minister = {
+		INS_Hayashi_Kyujiro_eco_des = {
+			allowed = {original_tag = INS}
+			available = {
+				OR = { has_government = despotism has_government = fascism has_government = national_socialism has_government = ultranational_socialism }
+				has_country_flag = can_replace_eco
+				NOT = {has_country_flag = Hayashi_Kyujiro_dead}
+				NOT = {has_country_flag = Hayashi_Kyujiro_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				despotism
+				eco_corrupt_kleptocrat
+			}
+			cancel_if_invalid = no
+		}
+	}
+
+	security_minister = {
+		INS_Shinshichiro_Kokubu_sec_ns = {
+			allowed = {original_tag = INS}
+			available = {
+				OR = { has_government = despotism has_government = fascism has_government = national_socialism has_government = ultranational_socialism }
+				has_country_flag = can_replace_sec
+				NOT = {has_country_flag = Shinshichiro_Kokubu_dead}
+				NOT = {has_country_flag = Shinshichiro_Kokubu_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				national_socialism
+				sec_prince_of_terror
+			}
+			cancel_if_invalid = no
+		}
+	}
+}
